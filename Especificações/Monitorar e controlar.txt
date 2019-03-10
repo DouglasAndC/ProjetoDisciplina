@@ -1,0 +1,29 @@
+	Monitorar e Controlar(CSU04)
+
+Sumário: O cliente monitora o serviço.
+
+Ator Primário: Cliente.
+
+Ator secundário: Prestador de Serviço.
+
+Precondição: O serviço deve ter sido iniciado.
+
+Fluxo Principal:
+
+	1. O cliente atualiza o estado do serviço
+	2.O prestador de serviço avalia o resultado da atividade, e verifica o estado de serviço.
+	3. O prestador de serviço defini as ações corretivas.
+	4. O prestador de serviço avalia o resultado da ação corretiva.
+	5.O prestador  envia o estado do serviço.
+	6. O cliente atualiza o estado do serviço.
+
+Fluxo alternativo(2): O estado de serviço não precisa de ações corretivas.
+	
+	a. O prestador de serviço manda o estado do serviço para o cliente.
+	b. O cliente atualiza o estado de serviço.
+
+Fluxo alternativo(4): A avaliação dos resultados da ações corretivas não forem suficientes para a correção do serviço.
+	a. O prestador de serviço defini as ações corretivas.
+	b. O prestador de serviço avalia o resultado das ações corretivas.
+	c. O prestador de serviço manda o estado do serviço para o cliente.
+	d. O cliente atualiza o estado de serviço.
