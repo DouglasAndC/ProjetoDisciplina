@@ -1,0 +1,15 @@
+	Pagar Serviço(CSU03)
+
+Sumário: O cliente paga o serviço.
+
+Ator Primário: Cliente.
+
+Ator secundário: E-Services e Prestador de serviço.
+
+Precondição: O serviço deve ter sido efetuado.
+
+Fluxo Principal:
+
+	1. O cliente paga o serviço o serviço para o E-Services, que gera um comprovante de pagamento.
+	2. O fornecedor emite a nota fiscal do serviço.
+	3. O E- Services paga o prestado de Serviço, que gera um comprovante de pagamento.
