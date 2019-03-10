@@ -1,0 +1,30 @@
+		Contratar Serviço(CSU01)
+
+Sumário: O cliente contrata o serviço.
+
+Ator Primário: Cliente.
+
+Ator secundário: Prestador de serviço.
+
+Precondição: O cliente ter selecionado o serviço
+
+Fluxo Principal:
+
+	1. O cliente especifica o serviço.
+	2. O cliente solicita orçamento do serviço.
+	3. O prestador de serviço verifica disponibilidade.
+	4. O prestador elabora orçamento do serviço.
+	5. O prestador publica o orçamento do serviço.
+	6.O cliente consulta o orçamento.
+	7.O prestador elabora o contrato.
+	8. O cliente assina o contrato.
+
+Fluxo alternativo(3): O prestador de serviço verificar disponibilidade.
+
+	a. O prestador se encontra indisponível.
+	b. O prestador manda um aviso de Indisponibilidade.
+
+Fluxo alternativo(6): O cliente consulta o orçamento.
+
+	a. O cliente não aprova o orçamento. 
+	b. O cliente manda um aviso de rejeição para o prestador de serviço 
