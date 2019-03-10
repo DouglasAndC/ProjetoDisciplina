@@ -1,0 +1,13 @@
+	Avaliar Serviço(CSU05)
+Sumário: O cliente avalia o serviço.
+
+Ator Primário: Cliente.
+
+Ator secundário: Prestador de serviço.
+
+Precondição: O serviço deve estar finalizado e entregue ao cliente.
+
+Fluxo Principal:
+
+	1. O cliente responde o questionário de avaliação do serviço.
+	2. O Prestador de Serviço responde questionário de avaliação do gesto do serviço.
