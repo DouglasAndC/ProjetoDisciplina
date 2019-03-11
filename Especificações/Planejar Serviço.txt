@@ -1,0 +1,16 @@
+	Planejar Serviço(CSU02)
+Sumário: O prestador de serviço planeja o serviço.
+
+Ator Primário: Prestador de serviço.
+
+Ator secundário: Cliente.
+
+Precondição: O cliente já deve ter contratado o Serviço.
+
+Fluxo Principal:
+	1. O prestador de serviço lista as atividades do serviço
+	2. O prestador de serviço sequencia as atividade do serviço.
+	3.O prestador de serviço atribui recursos.
+	4. O prestador de serviço elabora o cronograma de pagamento.	
+	5 .O prestador de serviço publica o Planejamento do serviço.
+	6. O cliente monitora a execução do serviço.
