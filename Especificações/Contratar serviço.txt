@@ -4,20 +4,21 @@ Sumário: O cliente contrata o serviço.
 
 Ator Primário: Cliente.
 
-Ator secundário: Prestador de serviço.
+Ator secundário: Prestador de serviço, Agenciador.
 
 Precondição: O cliente ter selecionado o serviço
 
 Fluxo Principal:
 
 	1. O cliente especifica o serviço.
-	2. O cliente solicita orçamento do serviço.
-	3. O prestador de serviço verifica disponibilidade.
-	4. O prestador elabora orçamento do serviço.
-	5. O prestador publica o orçamento do serviço.
-	6.O cliente consulta o orçamento.
-	7.O prestador elabora o contrato.
-	8. O cliente assina o contrato.
+	2. O cliente solicita orçamento do serviço do agenciador.
+	3. O agenciador procura grupos que ofereçam o serviço.
+	4. O prestador de serviço verifica disponibilidade.
+	5. O prestador elabora orçamento do serviço.
+	6. O prestador publica o orçamento do serviço.
+	7. O cliente consulta o orçamento.
+	8. O Agenciador elabora o contrato.
+	9. O cliente assina o contrato.
 
 Fluxo alternativo(3): O prestador de serviço verificar disponibilidade.
 
