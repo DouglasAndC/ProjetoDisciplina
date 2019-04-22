@@ -1,0 +1,20 @@
+		Elaborar orçamento(CS02)
+
+FLuxo Principal:
+
+	1. O cliente solicita o orçamento do serviço.
+	2. O prestador de serviço verifica disponibilidade.
+	3. prestador elabora orçamento do serviço.
+	4. O prestador publica o orçamento do serviço.
+	5. O cliente consulta o orçamento.
+	6. O cliente aprova o orçamento.
+
+Fluxo alternativo(3): O prestador de serviço verificar disponibilidade.
+
+	a. O prestador se encontra indisponível.
+	b. O prestador manda um aviso de Indisponibilidade.
+
+Fluxo alternativo(6): O cliente consulta o orçamento.
+
+	a. O cliente não aprova o orçamento. 
+	b. O cliente manda um aviso de rejeição para o prestador de serviço.
