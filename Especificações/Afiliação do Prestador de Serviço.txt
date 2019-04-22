@@ -1,0 +1,32 @@
+Caso de Uso: Afiliação do Prestador de Serviço
+
+Nível: Objetivo do Prestador de Serviço
+
+Interessados e interesses: 
+ -Prestador de Serviço: Poderá oferecer serviço por meio da plataforma de e-service
+ -Cliente: Poderá ter mais opções no momento em que escolhe o prestador de serviço para um trabalho
+ -Empresa: Deseja satisfazer os interesses dos clientes
+
+Ator principal: Prestador de Serviço 
+
+Pós-condições: Prestador de Serviços foi cadastrado e está disponível no aplicativo do e-comerce
+
+Fluxo principal:
+1.O Prestador de Serviço seleciona a opção para se registrar no sistema
+2.Prestador de Serviço preenche os campos com suas informações de trabalho e pessoa
+3.O sistema avalia se informações são válidas
+4.O sistema realiza o registro do prestador na plataforma
+5.O sistema libera o prestador para ser contratado na plataforma
+
+Fluxos alternativos:
+a) O prestador insere dados inválidos no preenchimento do formulário de inscrição
+4.O sistema retorna que os dados são inválidos
+5.O sistema apresenta o formulário novamente, destacando os campos com informações inválidas
+6.O sistema avalia se as informações novas são válidas
+7. O sistema realiza o registro do prestador na plataforma
+
+b)cpf, ou rg já existentes
+4.O sistema retorna que já existe um conta ligada ao rg ou cpf
+5.O sistema apresenta o formulário novamente, destacando os campos com informações inválidas
+6.O sistema avalia se as informações novas são válidas
+7. O sistema realiza o registro do prestador na plataforma
