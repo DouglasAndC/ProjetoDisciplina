@@ -1,20 +1,25 @@
-		Elaborar orçamento(CS02)
+Identificador	UC002
+Nome	        Elaboração de orçamento
+Atores	        Prestador(principal) e Cliente
+Complexidade     	Alta
+Regras de Negócio	RN4 e RN5
+Pré-Condições	O cliente deve solicitar um serviço
+Pós-condição	O cliente deve aprovar o orçamento
+Ponto de Inclusão	Não há
+Ponto de Exclusão	Não há
+	 
+Fluxo Principal
+Ações do Ator	Ações do Sistema
+1. O cliente solicita o orçamento do serviço.
+2. Sistema verifica a disponibilidade do Prestador de serviço
+3. Sistema envia a solicitação do orçamento para o prestador de serviço.
+4. Prestador elabora orçamento do serviço.
+5. Prestador de serviço envia o orçamento para o Sistema	6.O sistema envia o orçamento para o cliente.
+7.O cliente consulta o orçamento.
+8.O cliente aprova o orçamento.	9.O sistema informa para o prestador a confirmação do cliente.
 
-FLuxo Principal:
-
-	1. O cliente solicita o orçamento do serviço.
-	2. O prestador de serviço verifica disponibilidade.
-	3. prestador elabora orçamento do serviço.
-	4. O prestador publica o orçamento do serviço.
-	5. O cliente consulta o orçamento.
-	6. O cliente aprova o orçamento.
-
-Fluxo alternativo(3): O prestador de serviço verificar disponibilidade.
-
-	a. O prestador se encontra indisponível.
-	b. O prestador manda um aviso de Indisponibilidade.
-
-Fluxo alternativo(6): O cliente consulta o orçamento.
-
-	a. O cliente não aprova o orçamento. 
-	b. O cliente manda um aviso de rejeição para o prestador de serviço.
+Fluxo alternativo- Passo 6 - Rejeição do orçamento
+Ações do Ator	Ações do Sistema
+6.1 O cliente rejeita o orçamento
+	6.2  O Sistema informa o Prestador de serviço.
+6.3  O Prestador elabora outro orçamento.	
