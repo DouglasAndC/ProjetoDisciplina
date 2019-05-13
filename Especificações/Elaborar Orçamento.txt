@@ -9,17 +9,30 @@ Ponto de Inclusão	Não há
 Ponto de Exclusão	Não há
 	 
 Fluxo Principal
-Ações do Ator	Ações do Sistema
-1. O cliente solicita o orçamento do serviço.
-2. Sistema verifica a disponibilidade do Prestador de serviço
-3. Sistema envia a solicitação do orçamento para o prestador de serviço.
-4. Prestador elabora orçamento do serviço.
-5. Prestador de serviço envia o orçamento para o Sistema	6.O sistema envia o orçamento para o cliente.
-7.O cliente consulta o orçamento.
-8.O cliente aprova o orçamento.	9.O sistema informa para o prestador a confirmação do cliente.
 
-Fluxo alternativo- Passo 6 - Rejeição do orçamento
-Ações do Ator	Ações do Sistema
-6.1 O cliente rejeita o orçamento
-	6.2  O Sistema informa o Prestador de serviço.
-6.3  O Prestador elabora outro orçamento.	
+1. Cliente procura qual serviço ele quer solicitar.
+2. Sistema envia os prestadores disponiveis para realizar o serviço.
+3. Cliente seleciona um prestador de serviço.
+4. Sistema exibi os dados do prestador.
+5. Cliente solicita o serviço do prestador selecionado.
+6. Sistema envia a solicitação para o prestador.
+7. Prestador verifica disponibilidade.
+8. Sistema valida o contrato.
+9. Cliente escolhe o(s) horário(s).
+10. Sistema valida o(s) horário(s).
+11. Sistema envia o(s) horário(s) para o prestador.
+12. Prestador elabora o orçamento.
+11. Prestador envia o orçamento para o Sistema.
+13. Sistema envia o orçamento para o cliente.
+14. Cliente aprova o orçamento.
+15. Cliente envia a aprovação para o Sistema.
+16. O Sitema envia a aprovação para o Prestador.
+
+Fluxo alternativo - Passo 7 - Prestador Indisponível 
+7.1 Prestador recusa a solicitação do serviço.
+7.2 Sistema mostra outros Prestadores para o cliente
+ 
+Fluxo alternativo- Passo 14 - Rejeição do orçamento
+14.1 Cliente rejeita o orçamento
+14.2 Sistema informa o Prestador de serviço.
+14.3 Prestador elabora outro orçamento.	
