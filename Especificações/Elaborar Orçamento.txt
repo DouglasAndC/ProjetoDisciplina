@@ -22,17 +22,17 @@ Fluxo Principal
 10. Sistema valida o(s) horário(s).
 11. Sistema envia o(s) horário(s) para o prestador.
 12. Prestador elabora o orçamento.
-11. Prestador envia o orçamento para o Sistema.
-13. Sistema envia o orçamento para o cliente.
-14. Cliente aprova o orçamento.
-15. Cliente envia a aprovação para o Sistema.
-16. O Sitema envia a aprovação para o Prestador.
+13. Prestador envia o orçamento para o Sistema.
+14. Sistema envia o orçamento para o cliente.
+15. Cliente aprova o orçamento.
+16. Cliente envia a aprovação para o Sistema.
+17. O Sitema envia a aprovação para o Prestador.
 
 Fluxo alternativo - Passo 7 - Prestador Indisponível 
 7.1 Prestador recusa a solicitação do serviço.
 7.2 Sistema mostra outros Prestadores para o cliente
  
 Fluxo alternativo- Passo 14 - Rejeição do orçamento
-14.1 Cliente rejeita o orçamento
-14.2 Sistema informa o Prestador de serviço.
-14.3 Prestador elabora outro orçamento.	
+15.1 Cliente rejeita o orçamento
+15.2 Sistema informa o Prestador de serviço.
+15.3 Prestador elabora outro orçamento.	
