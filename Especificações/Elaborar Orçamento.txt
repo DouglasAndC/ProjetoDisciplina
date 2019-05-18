@@ -16,7 +16,7 @@ Fluxo Principal
 4. Sistema exibi os dados do prestador.
 5. Cliente solicita o serviço do prestador selecionado.
 6. Sistema valida o contrato.
-7. Sistema envia o contrato para o cliente e para o prestador.
+7. CLiente manda as especificações para o Prestador
 8. Prestador elabora o orçamento.
 9. Prestador envia o orçamento para o Sistema.
 10. Sistema envia o orçamento para o cliente.
@@ -28,4 +28,4 @@ Fluxo Principal
 Fluxo alternativo- Passo 13 - Rejeição do orçamento
 13.1 Cliente rejeita o orçamento
 13.2 Sistema informa o Prestador de serviço.
-13.3 Prestador elabora outro orçamento.	
+15.3 Prestador elabora outro orçamento.	
