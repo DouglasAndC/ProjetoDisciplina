@@ -1,31 +1,21 @@
 Identificador	UC003
 Nome	        Elaboração de orçamento
-Atores	        Prestador(principal) e Cliente
+Atores	        Prestador de Serviços
 Complexidade     	Alta
 Regras de Negócio	RN4 e RN5
-Pré-Condições	O cliente deve solicitar um serviço
-Pós-condição	O cliente deve aprovar o orçamento
+Pré-Condições	O Cliente deve ter elaborado uma demanda de serviço
+Pós-condição	O Prestador propõem um contrato
 Ponto de Inclusão	Não há
 Ponto de Exclusão	Não há
 	 
 Fluxo Principal
 
-1. Cliente procura qual serviço ele quer solicitar.
-2. Sistema envia os prestadores disponiveis para realizar o serviço.
-3. Cliente seleciona um prestador de serviço.
-4. Sistema exibi os dados do prestador.
-5. Cliente solicita o serviço do prestador selecionado.
-6. Sistema valida o contrato.
-7. CLiente manda as especificações para o Prestador
-8. Prestador elabora o orçamento.
-9. Prestador envia o orçamento para o Sistema.
-10. Sistema envia o orçamento para o cliente.
-11. Cliente aprova o orçamento.
-12. Cliente envia a aprovação para o Sistema.
-13. O Sitema envia a aprovação para o Prestador.
-
- 
-Fluxo alternativo- Passo 13 - Rejeição do orçamento
-13.1 Cliente rejeita o orçamento
-13.2 Sistema informa o Prestador de serviço.
-15.3 Prestador elabora outro orçamento.	
+1. Prestador realiza o login.
+2. Sistema sistema valida o Acesso.
+3. Prestador busca por Demandas.
+4. Sistema retorna a identificador da demanda.
+5. Prestador cria um orçamento.
+6. Sistema gera valor ao orçamento.
+7. Sistema retonar o valor para o Prestador
+8. Prestador propõem o Contrato.
+9. Sistema cria um contrato para aprovação.

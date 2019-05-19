@@ -12218,7 +12218,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1319.9599609375,
+													"left": 1312.72998046875,
 													"top": 637,
 													"width": 1,
 													"height": 13
@@ -12232,9 +12232,9 @@
 													"font": "Arial;13;1",
 													"left": 1293,
 													"top": 637,
-													"width": 21.9599609375,
+													"width": 14.72998046875,
 													"height": 13,
-													"text": "seq"
+													"text": "alt"
 												},
 												{
 													"_type": "UMLInteractionOperandCompartmentView",
@@ -12731,7 +12731,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFq0IYyowbIeOM="
 									},
-									"interactionOperator": "seq",
+									"interactionOperator": "alt",
 									"operands": [
 										{
 											"_type": "UMLInteractionOperand",
