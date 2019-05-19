@@ -3495,6 +3495,54 @@
 											"height": 13,
 											"text": "+Role4: Cliente",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFq0Ngy6ghMefo=",
+											"_parent": {
+												"$ref": "AAAAAAFqSDfDOG6grMs="
+											},
+											"model": {
+												"$ref": "AAAAAAFq0KKpxwvbIRg="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 89.248046875,
+											"height": 13,
+											"text": "+Role5: Cliente",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFq0Ngy9whPHYc=",
+											"_parent": {
+												"$ref": "AAAAAAFqSDfDOG6grMs="
+											},
+											"model": {
+												"$ref": "AAAAAAFq0LjKRA5E+Ow="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 89.248046875,
+											"height": 13,
+											"text": "+Role6: Cliente",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFq0Ngy+QhS99Q=",
+											"_parent": {
+												"$ref": "AAAAAAFqSDfDOG6grMs="
+											},
+											"model": {
+												"$ref": "AAAAAAFq0L5C8Rx+qnE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 41.55810546875,
+											"height": 13,
+											"text": "+Role7",
+											"horizontalAlignment": 0
 										}
 									],
 									"visible": false,
@@ -9861,8 +9909,8 @@
 														"$ref": "AAAAAAFq0IYypAbKsVw="
 													},
 													"font": "Arial;13;0",
-													"left": 566.97900390625,
-													"top": 21,
+													"left": 558.97900390625,
+													"top": 13,
 													"width": 73.97265625,
 													"height": 13,
 													"text": "AfiliarCliente"
@@ -9874,16 +9922,16 @@
 														"$ref": "AAAAAAFq0IYypAbKsVw="
 													},
 													"font": "Arial;13;1",
-													"left": 501,
-													"top": 21,
+													"left": 493,
+													"top": 13,
 													"width": 60.97900390625,
 													"height": 13,
 													"text": "interaction"
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 496,
-											"top": 16,
+											"left": 488,
+											"top": 8,
 											"width": 1433,
 											"height": 833,
 											"nameLabel": {
@@ -11379,7 +11427,7 @@
 														"$ref": "AAAAAAFq0L/MuxzCHrg="
 													},
 													"font": "Arial;13;0",
-													"left": 1479,
+													"left": 1484,
 													"top": 436,
 													"width": 128.59716796875,
 													"height": 13,
@@ -11402,7 +11450,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1538,
+													"left": 1543,
 													"top": 433,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -11423,7 +11471,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1538,
+													"left": 1543,
 													"top": 468,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -11443,7 +11491,7 @@
 														"$ref": "AAAAAAFq0L/MuxzCHrg="
 													},
 													"font": "Arial;13;0",
-													"left": 1622,
+													"left": 1632,
 													"top": 464,
 													"width": 14,
 													"height": 41
@@ -11456,7 +11504,7 @@
 											"tail": {
 												"$ref": "AAAAAAFq0LjKRQ5MmFQ="
 											},
-											"points": "1454:464;1622:464",
+											"points": "1454:464;1632:464",
 											"nameLabel": {
 												"$ref": "AAAAAAFq0L/MvBzEc2U="
 											},
@@ -11724,10 +11772,12 @@
 															"_parent": {
 																"$ref": "AAAAAAFq0L5C8RyB0bg="
 															},
-															"visible": false,
 															"font": "Arial;13;0",
-															"left": -352,
-															"height": 13
+															"left": 1581,
+															"top": 45,
+															"width": 116.22802734375,
+															"height": 13,
+															"text": "«PureFabrication»"
 														},
 														{
 															"_type": "LabelView",
@@ -11737,8 +11787,8 @@
 															},
 															"font": "Arial;13;1",
 															"left": 1581,
-															"top": 47,
-															"width": 95.97265625,
+															"top": 60,
+															"width": 116.22802734375,
 															"height": 13,
 															"text": "GeradorEmail"
 														},
@@ -11771,7 +11821,7 @@
 													"font": "Arial;13;0",
 													"left": 1576,
 													"top": 40,
-													"width": 105.97265625,
+													"width": 126.22802734375,
 													"height": 40,
 													"stereotypeLabel": {
 														"$ref": "AAAAAAFq0L5C8hyCVWI="
@@ -11796,7 +11846,7 @@
 														"$ref": "AAAAAAFq0L5C8Rx/6ZM="
 													},
 													"font": "Arial;13;0",
-													"left": 1629,
+													"left": 1639,
 													"top": 80,
 													"width": 1,
 													"height": 745
@@ -11805,7 +11855,7 @@
 											"font": "Arial;13;0",
 											"left": 1576,
 											"top": 40,
-											"width": 105.97265625,
+											"width": 126.22802734375,
 											"height": 785,
 											"nameCompartment": {
 												"$ref": "AAAAAAFq0L5C8RyB0bg="
@@ -11834,7 +11884,7 @@
 														"$ref": "AAAAAAFq0MbHVx23LOA="
 													},
 													"font": "Arial;13;0",
-													"left": 1259,
+													"left": 1264,
 													"top": 492,
 													"width": 145.95166015625,
 													"height": 13,
@@ -11857,7 +11907,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1331,
+													"left": 1336,
 													"top": 507,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -11878,7 +11928,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1332,
+													"left": 1337,
 													"top": 472,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -11912,7 +11962,7 @@
 											"tail": {
 												"$ref": "AAAAAAFq0L5C8hyGYrY="
 											},
-											"points": "1622:488;1042:488",
+											"points": "1632:488;1042:488",
 											"nameLabel": {
 												"$ref": "AAAAAAFq0MbHWB25KPg="
 											},
@@ -12061,7 +12111,7 @@
 													"font": "Arial;13;0",
 													"left": 706,
 													"top": 560,
-													"width": 106.95166015625,
+													"width": 107.09228515625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -12272,7 +12322,7 @@
 														"$ref": "AAAAAAFq0NKtDR6xgGA="
 													},
 													"font": "Arial;13;0",
-													"left": 1531,
+													"left": 1536,
 													"top": 652,
 													"width": 25.29541015625,
 													"height": 13,
@@ -12294,7 +12344,7 @@
 														"$ref": "AAAAAAFq0NKtDR6xgGA="
 													},
 													"font": "Arial;13;0",
-													"left": 1515,
+													"left": 1520,
 													"top": 667,
 													"width": 57.0908203125,
 													"height": 13,
@@ -12317,7 +12367,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1544,
+													"left": 1549,
 													"top": 632,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -12350,7 +12400,7 @@
 											"tail": {
 												"$ref": "AAAAAAFq0L5C8hyGYrY="
 											},
-											"points": "1629:648;1460:648",
+											"points": "1639:648;1460:648",
 											"nameLabel": {
 												"$ref": "AAAAAAFq0NKtDh6zN9o="
 											},
@@ -12629,6 +12679,7 @@
 										"$ref": "AAAAAAFq0IYyowbIeOM="
 									},
 									"name": "GeradorEmail",
+									"stereotype": "PureFabrication",
 									"represent": {
 										"$ref": "AAAAAAFq0L5C8Rx+qnE="
 									},
@@ -12765,7 +12816,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFqSDfDN26YqUM="
 							},
-							"name": "Role7"
+							"name": "Role7",
+							"type": ""
 						}
 					]
 				},
