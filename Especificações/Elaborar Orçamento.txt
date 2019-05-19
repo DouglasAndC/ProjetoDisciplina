@@ -11,9 +11,9 @@ Ponto de Exclusão	Não há
 Fluxo Principal
 
 1. Prestador realiza o login.
-2. Sistema sistema valida o Acesso.
+2. Sistema valida o Acesso.
 3. Prestador busca por Demandas.
-4. Sistema retorna a identificador da demanda.
+4. Sistema retorna a identificação da demanda.
 5. Prestador cria um orçamento.
 6. Sistema gera valor ao orçamento.
 7. Sistema retonar o valor para o Prestador
